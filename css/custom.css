@@ -1,0 +1,36 @@
+body{
+    background-color: #1E90FF;
+    padding: 0px;
+    margin: 0px;
+}
+
+.wrapper{
+    width: 1440px;
+    margin: auto 20%;
+}
+
+/* Navbar */
+.navbar{
+    background-color: #fff;
+   
+    border-radius: 12px;
+}
+.navbar ul{
+    list-style-type: none;
+}
+.navbar ul li{
+    display: inline;
+    padding: 10px;
+}
+
+/* Content */
+.content-title h1{
+    color: #0A2541;
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 64px;
+}
+.content-title span{
+    color: #5352ED;
+
+}
