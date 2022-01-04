@@ -1,1 +1,1 @@
-![image](img/3D Landing Page.png)
+![image](img/screenshot.png)
