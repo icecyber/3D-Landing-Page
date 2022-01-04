@@ -1,36 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 body{
     background-color: #1E90FF;
     padding: 0px;
     margin: 0px;
 }
 
-.wrapper{
-    width: 1440px;
-    margin: auto 20%;
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 /* Navbar */
-.navbar{
+.header{
     background-color: #fff;
-   
     border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+    margin-top: 30px;
 }
-.navbar ul{
+.nav-link{
     list-style-type: none;
 }
-.navbar ul li{
-    display: inline;
-    padding: 10px;
-}
+.nav-link li{
+    display: inline-block;
+    font-family: 'Roboto',sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0px 20px;
 
+}
+.logo{
+    font-size: 25px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+}
+.navbar-item{
+    
+}
+.nav-btn a{
+    border: 1px solid #4443D0;
+    padding:6px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+.nav-btn-signup{
+    color: #4443D0;
+    margin-right: 15px;
+}  
+.nav-btn-signin{
+    color: #fff;
+    background-color: #4443D0;
+    
+}
 /* Content */
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin-top:100px;
+}
 .content-title h1{
     color: #0A2541;
-    font-family: roboto;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    font-size: 64px;
+    font-size: 65px;
+    margin: 10px 0px;
+    
+}
+.content-title p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    margin: 10px auto 30px auto;
+    
 }
 .content-title span{
     color: #5352ED;
 
+}
+.home-image{
+    width: 700px;
+    justify-content: flex-end;
+}
+.getupdateform{
+    border: 1px solid #fff;
+    border-radius: 10px;
+    height: 35px;
+    width: 350px;
+}
+.getupdatetitle p{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.mt-1{
+    margin-top: 15px;
 }
